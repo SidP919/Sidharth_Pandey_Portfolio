@@ -1,0 +1,121 @@
+body{
+    min-width: 360px;
+}
+
+/* Header */
+.resume-btn:hover, .resume-btn:active{
+    background-image: url('./images/blue-bg.png');
+    border:2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 4px -2px rgb(255, 255, 255);
+    position:relative;
+    bottom: 2px;
+}
+
+/* Main Content */
+.slider-section{
+    margin-top: 5%;
+    width: 90%;
+}
+
+.carousel-caption{
+    top:2%
+}
+
+section{
+    margin: 3% 0.5% 0.5% 0%;
+    padding: 10px;
+    background: white;
+    border-radius: 20px;
+}
+
+.card{
+    background-image: url('./images/blue-bg.png');
+    height: 100%;
+    min-width: 10vw;
+    font-size: small;
+    }
+
+    
+/* Media Queries */
+/* // Large devices (desktops, more than 1200px) */
+@media (min-width: 1199.98px) { 
+    *{
+        font-size: large;
+    }
+    .slider-section{
+        margin-top: 7%;
+    }
+ }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    *{
+        font-size: large;
+    }
+    .slider-section{
+        margin-top: 7%;
+    }
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        font-size: x-large;    
+        margin-bottom: .1rem;
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.2;
+        color: inherit;
+    }
+ }
+
+ /* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    *{
+        font-size:medium;
+    }
+    .slider-section{
+        margin-top: 9%;
+    }
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        font-size: large;    
+        margin-bottom: .1rem;
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.2;
+        color: inherit;
+    }
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    *{
+        font-size: large;
+    }
+    .slider-section{
+        margin-top: 13%;
+    }
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        font-size: larger;    
+        margin-bottom: .1rem;
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.2;
+        color: inherit;
+    }
+ }
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    *{
+        font-size: x-small;
+    }
+    .slider-section{
+        margin-top: 16%;
+    }
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        font-size: small;    
+        margin-bottom: .1rem;
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.2;
+        color: inherit;
+    }
+ }
